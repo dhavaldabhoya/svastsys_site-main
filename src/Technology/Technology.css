@@ -1,0 +1,142 @@
+.te-main {
+  margin-top: 100px;
+}
+  
+.tech-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-head h3 {
+  font-size: 35px;
+  text-align: center;
+}
+.portfolio-bg-curve {
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  position: absolute;
+  justify-content: end;
+}
+
+
+.mytit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: white; */
+  padding: 30px;
+  padding-bottom: 20px;
+}
+
+.title-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.title-tech p {
+  height: 30px;
+}
+.title-tech p hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  color: #086ad8;
+  background: #086ad8;
+}
+
+.title-tech p {
+  font-size: 16px;
+  cursor: pointer;
+  color: #686666;
+}
+
+.mobile-tech {
+  color: #673ab7;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 125px;
+  margin-bottom: 20px;
+}
+
+.item-tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 125px;
+  /* padding: 20px; */
+  padding-top: 20;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.item-tech img {
+  width: 80px;
+  height: 80px;
+  /* margin-bottom: 10px; */
+}
+
+.item-tech p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (max-width: 767px) {
+  .mytit {
+    margin-bottom: 400px;
+  }
+
+  .item-tech {
+    display: flex;
+    width: 40%;
+
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .title-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+
+  .portfolio-bg-curve {
+    width: 100%;
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    justify-content: end;
+  }
+  .portfolio-bg-curve img {
+    width: 70%;
+  }
+}
+

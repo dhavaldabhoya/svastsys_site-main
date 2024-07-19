@@ -1,0 +1,42 @@
+.client {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.happy-client {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.happy-client p{
+    font-weight: 700;
+    font-size: 51px;
+    color: #272460;
+}
+
+.happy-client h5 {
+    color: #bbbb;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.blog-bg-curve {
+    width: 100%;
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    justify-content: start;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
+    .blog-bg-curve img {
+        width: 70%;
+        height: 100%;
+    }
+}

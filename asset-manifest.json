@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/svastsys_site/static/css/main.b8778d7e.css",
+    "main.js": "/svastsys_site/static/js/main.693d95f5.js",
+    "static/js/453.c1c3438a.chunk.js": "/svastsys_site/static/js/453.c1c3438a.chunk.js",
+    "static/media/home.svg": "/svastsys_site/static/media/home.09ad579cc171b5bb4f15c0d8acc86a85.svg",
+    "static/media/logo.png": "/svastsys_site/static/media/logo.b2030d553947fe7b0d09.png",
+    "static/media/hireImg.svg": "/svastsys_site/static/media/hireImg.48f4a6876536242f126b66468f967d9b.svg",
+    "index.html": "/svastsys_site/index.html",
+    "main.b8778d7e.css.map": "/svastsys_site/static/css/main.b8778d7e.css.map",
+    "main.693d95f5.js.map": "/svastsys_site/static/js/main.693d95f5.js.map",
+    "453.c1c3438a.chunk.js.map": "/svastsys_site/static/js/453.c1c3438a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8778d7e.css",
+    "static/js/main.693d95f5.js"
+  ]
+}
